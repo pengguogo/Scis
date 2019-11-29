@@ -1,6 +1,5 @@
 package com.jcohy.scis.controller;
 
-import com.jcohy.scis.common.JsonResult;
 import com.jcohy.scis.common.PageJson;
 import com.jcohy.scis.model.Notice;
 import com.jcohy.scis.service.NoticeService;

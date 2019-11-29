@@ -1,6 +1,5 @@
 package com.jcohy.scis.service;
 
-import com.jcohy.scis.model.Allot;
 import com.jcohy.scis.model.Notice;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

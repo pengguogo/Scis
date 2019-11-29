@@ -1,9 +1,6 @@
 package com.jcohy.scis.service.impl;
 
 
-import com.jcohy.scis.exception.ServiceException;
-import com.jcohy.scis.model.Dept;
-import com.jcohy.scis.model.Expert;
 import com.jcohy.scis.model.MgProductInfo;
 import com.jcohy.scis.repository.ProductRepository;
 import com.jcohy.scis.service.IMgProductInfoService;

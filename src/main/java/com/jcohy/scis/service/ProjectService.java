@@ -1,7 +1,5 @@
 package com.jcohy.scis.service;
 
-import com.jcohy.scis.exception.ServiceException;
-import com.jcohy.scis.model.Allot;
 import com.jcohy.scis.model.Project;
 import com.jcohy.scis.model.Type;
 import org.springframework.data.domain.Page;

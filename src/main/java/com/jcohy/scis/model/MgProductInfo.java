@@ -3,10 +3,8 @@ package com.jcohy.scis.model;
 
 import lombok.Data;
 
-import java.io.Serializable;
-
-
 import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * <p>

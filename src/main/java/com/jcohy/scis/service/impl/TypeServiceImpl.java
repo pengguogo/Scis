@@ -1,7 +1,6 @@
 package com.jcohy.scis.service.impl;
 
 import com.jcohy.date.DateUtils;
-import com.jcohy.scis.model.Dept;
 import com.jcohy.scis.model.Type;
 import com.jcohy.scis.repository.TypeRepository;
 import com.jcohy.scis.service.TypeService;

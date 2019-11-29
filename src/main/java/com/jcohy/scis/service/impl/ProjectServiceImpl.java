@@ -1,13 +1,11 @@
 package com.jcohy.scis.service.impl;
 
 import com.jcohy.date.DateUtils;
-import com.jcohy.scis.exception.ServiceException;
 import com.jcohy.scis.model.Notice;
 import com.jcohy.scis.model.Project;
 import com.jcohy.scis.model.Type;
 import com.jcohy.scis.repository.*;
 import com.jcohy.scis.service.ProjectService;
-import com.jcohy.scis.service.TeacherService;
 import com.jcohy.scis.service.TypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -15,7 +13,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.util.Date;
 import java.util.List;
 
 /**

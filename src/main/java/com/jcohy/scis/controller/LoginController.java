@@ -2,7 +2,6 @@ package com.jcohy.scis.controller;
 
 import com.jcohy.lang.StringUtils;
 import com.jcohy.scis.common.JsonResult;
-import com.jcohy.scis.exception.ServiceException;
 import com.jcohy.scis.model.Admin;
 import com.jcohy.scis.model.Expert;
 import com.jcohy.scis.model.Student;

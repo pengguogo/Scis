@@ -5,7 +5,6 @@ import com.jcohy.scis.common.PageJson;
 import com.jcohy.scis.model.Dept;
 import com.jcohy.scis.model.Teacher;
 import com.jcohy.scis.service.DeptService;
-import com.jcohy.scis.service.MajorService;
 import com.jcohy.scis.service.TeacherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

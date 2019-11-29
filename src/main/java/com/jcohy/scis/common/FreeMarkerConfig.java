@@ -2,7 +2,6 @@ package com.jcohy.scis.common;
 
 import com.jcohy.scis.directive.CircularDirective;
 import com.jcohy.scis.directive.ProjectDirective;
-import com.jcohy.scis.model.Notice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 

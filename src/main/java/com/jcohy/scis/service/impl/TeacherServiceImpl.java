@@ -1,6 +1,5 @@
 package com.jcohy.scis.service.impl;
 
-import com.jcohy.lang.StringUtils;
 import com.jcohy.scis.exception.ServiceException;
 import com.jcohy.scis.model.Teacher;
 import com.jcohy.scis.repository.TeacherRepository;

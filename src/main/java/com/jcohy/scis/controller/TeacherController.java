@@ -1,7 +1,6 @@
 package com.jcohy.scis.controller;
 
 import com.jcohy.lang.StringUtils;
-import com.jcohy.scis.common.JsonResult;
 import com.jcohy.scis.common.PageJson;
 import com.jcohy.scis.model.*;
 import com.jcohy.scis.service.*;

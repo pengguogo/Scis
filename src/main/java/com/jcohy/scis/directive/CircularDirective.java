@@ -1,9 +1,7 @@
 package com.jcohy.scis.directive;
 
 import com.jcohy.scis.model.Circular;
-import com.jcohy.scis.model.Project;
 import com.jcohy.scis.service.CircularService;
-import com.jcohy.scis.service.ProjectService;
 import freemarker.core.Environment;
 import freemarker.template.*;
 import org.slf4j.LoggerFactory;

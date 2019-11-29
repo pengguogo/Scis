@@ -1,7 +1,6 @@
 package com.jcohy.scis.service.impl;
 
 import com.jcohy.date.DateUtils;
-import com.jcohy.lang.StringUtils;
 import com.jcohy.scis.exception.ServiceException;
 import com.jcohy.scis.model.*;
 import com.jcohy.scis.repository.AllotRepository;

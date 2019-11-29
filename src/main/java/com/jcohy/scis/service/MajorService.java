@@ -1,6 +1,5 @@
 package com.jcohy.scis.service;
 
-import com.jcohy.scis.model.Allot;
 import com.jcohy.scis.model.Dept;
 import com.jcohy.scis.model.Major;
 import org.springframework.data.domain.Page;

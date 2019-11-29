@@ -1,7 +1,6 @@
 package com.jcohy.scis.model;
 
 import javax.persistence.*;
-import java.util.Date;
 
 /**
  * Copyright  : 2017- www.jcohy.com

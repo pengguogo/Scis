@@ -1,7 +1,6 @@
 package com.jcohy.scis.service;
 
 
-import com.jcohy.scis.model.Dept;
 import com.jcohy.scis.model.MgProductInfo;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

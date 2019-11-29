@@ -1,7 +1,6 @@
 package com.jcohy.scis.common;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * Copyright  : 2017- www.jcohy.com

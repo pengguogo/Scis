@@ -1,7 +1,5 @@
 package com.jcohy.scis.repository;
 
-import com.jcohy.scis.model.Dept;
-import com.jcohy.scis.model.Major;
 import com.jcohy.scis.model.MgProductInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

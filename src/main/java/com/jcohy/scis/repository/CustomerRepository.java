@@ -1,7 +1,6 @@
 package com.jcohy.scis.repository;
 
 import com.jcohy.scis.model.Customer;
-import com.jcohy.scis.model.Supplier;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
