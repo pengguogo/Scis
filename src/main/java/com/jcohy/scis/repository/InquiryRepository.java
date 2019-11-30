@@ -20,9 +20,7 @@ public interface InquiryRepository extends JpaRepository<Inquiry,Integer> {
     @Query(value = "select p.*,c.khm from inquiry p LEFT JOIN customer c on p.customer = c.id where c.khm like  %?1% or p.cp like %?1%  ", nativeQuery = true)
     List<Inquiry> findByKeywordLike(String keyword);
 
-    @Override
-    @Query(value = "select p.*,c.khm from inquiry p LEFT JOIN customer c on p.customer = c.id  ", nativeQuery = true)
-    List<Inquiry> findAll();
+
 
 
 }

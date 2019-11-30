@@ -62,14 +62,11 @@ public class Inquiry implements Serializable {
     /**
      * 客户id
      */
-    private Integer customer;
+    @OneToOne
+    @JoinColumn(name="customer")
+    private Customer customer;
 
 
-    /**
-     * 客户名
-     */
-    @Transient
-    private String khm;
 
     
 

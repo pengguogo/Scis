@@ -13,7 +13,7 @@
         ,url: '/admin/inquiry/list' //数据接口
         ,page: true //开启分页
         ,cols: [[ //表头
-            {field: 'khm', align:'center', title: '客户名',unresize:true}
+            {field: 'customer',templet: '<div>{{d.customer.khm}}</div> ', align:'center', title: '客户名',unresize:true}
             ,{field: 'cp', align:'center', title: '产品',unresize:true}
             ,{field: 'xssj', align:'center', title: '销售时间',unresize:true}
             ,{field: 'cpje', align:'center', title: '产品金额',unresize:true}
