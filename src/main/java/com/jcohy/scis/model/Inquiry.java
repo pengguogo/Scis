@@ -4,7 +4,6 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -33,7 +32,7 @@ public class Inquiry implements Serializable {
     /**
      * 销售时间
      */
-    private LocalDateTime xssj;
+    private String xssj;
 
     /**
      * 产品金额
@@ -59,6 +58,11 @@ public class Inquiry implements Serializable {
      * 采购价
      */
     private String cgj;
+
+    /**
+     * 客户id
+     */
+    private Integer customer;
 
 
 

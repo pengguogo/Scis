@@ -53,6 +53,7 @@
                             <dd><a href="javascript:;" data-url="${ctx!}/admin/product/index" data-id="44">产品信息管理</a></dd>
                             <dd><a href="javascript:;" data-url="${ctx!}/admin/supplier/index" data-id="45">供应商信息管理</a></dd>
                             <dd><a href="javascript:;" data-url="${ctx!}/admin/customer/index" data-id="46">客户信息管理</a></dd>
+                            <dd><a href="javascript:;" data-url="${ctx!}/admin/inquiry/index" data-id="47">询盘信息管理</a></dd>
                         </dl>
                     </li>
 
