@@ -65,6 +65,17 @@ public class Inquiry implements Serializable {
     private Integer customer;
 
 
+    /**
+     * 客户名
+     */
+    @Transient
+    private String khm;
+
+    
+
+
+
+
 
 
 }
