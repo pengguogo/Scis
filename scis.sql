@@ -824,5 +824,23 @@ CREATE TABLE `inquiry` (
 ) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='询盘列表';
 
 
+DROP TABLE IF EXISTS `inquiry`;
+CREATE TABLE `inquiry` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `customer` bigint(20) DEFAULT NULL,
+  `cp` varchar(500) DEFAULT NULL COMMENT '产品',
+  `xssj` varchar(500) DEFAULT NULL COMMENT '销售时间',
+  `cpje` varchar(500) DEFAULT NULL COMMENT '产品金额',
+  `ddzje` varchar(500) DEFAULT NULL COMMENT '订单总金额',
+  `yf` varchar(500) DEFAULT NULL COMMENT '运费',
+  `gys` varchar(500) DEFAULT NULL COMMENT '供应商',
+  `cgj` varchar(500) DEFAULT NULL COMMENT '采购价',
+  `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=67 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='询盘列表';
+
+
+INSERT INTO `inquiry` VALUES ('66', '12', '测试', '2019-11-30 00:00:00', '12', '12', '12', 'XX', '12', '2019-11-30 11:35:38', '2019-11-30 14:32:02');
 
 SET FOREIGN_KEY_CHECKS = 1;
