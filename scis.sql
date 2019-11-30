@@ -806,4 +806,22 @@ CREATE TABLE `type`  (
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '类型' ROW_FORMAT = Dynamic;
 
+
+DROP TABLE IF EXISTS `inquiry`;
+CREATE TABLE `inquiry` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `cp` varchar(500) DEFAULT NULL COMMENT '产品',
+  `xssj` datetime DEFAULT NULL COMMENT '销售时间',
+	`cpje` varchar(500) DEFAULT NULL COMMENT '产品金额',
+	`ddzje` varchar(500) DEFAULT NULL COMMENT '订单总金额',
+	`yf` varchar(500) DEFAULT NULL COMMENT '运费',
+	`gys` varchar(500) DEFAULT NULL COMMENT '供应商',
+	`cgj` varchar(500) DEFAULT NULL COMMENT '采购价',
+  `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='询盘列表';
+
+
+
 SET FOREIGN_KEY_CHECKS = 1;
